@@ -1,0 +1,65 @@
+# 📊 Brazilian E-Commerce Data Analysis Project
+
+This project analyzes a real-world dataset from a Brazilian e-commerce platform (Olist) to uncover business insights such as customer behavior, sales trends, delivery performance, and more. The analysis uses **Python (Pandas, SQL), Power BI**, and **PostgreSQL** for a complete data analytics workflow.
+
+---
+
+## 📁 Dataset
+
+The dataset is sourced from [Olist's public dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), which includes:
+
+- Customers
+- Orders
+- Order items
+- Payments
+- Reviews
+- Products
+- Sellers
+- Product category translations
+- Geolocation
+
+These tables were merged and cleaned for analytical purposes.
+
+---
+
+## 📌 Objectives
+
+- Clean and prepare raw data for analysis
+- Perform SQL-based exploratory data analysis (EDA)
+- Calculate KPIs like revenue, order value, and customer retention
+- Visualize insights using Power BI dashboards
+- Draw actionable business conclusions from the data
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Python (Pandas, NumPy)**
+- **PostgreSQL (pgAdmin for SQL queries)**
+- **Power BI** for interactive dashboards
+- **Jupyter Notebook** for scripting and analysis
+
+---
+
+## 📊 Key Metrics Analyzed
+
+- Total Sales & Monthly Trends
+- Customer Segments & Repeat Purchases
+- Product Category Performance
+- Review Score Distribution
+- Late Delivery Rate
+- Payment Type Analysis
+- Geographical Distribution of Orders
+
+---
+
+## 📂 Project Structure
+
+brazilian-ecommerce-analysis/
+│
+├── data/ # Cleaned and merged dataset
+├── notebooks/ # Python EDA and SQL analysis
+├── dashboards/ # Power BI report (.pbix)
+├── scripts/ # Data cleaning and transformation scripts
+├── README.md # Project overview
+└── requirements.txt # Python dependencies
